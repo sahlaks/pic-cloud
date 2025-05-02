@@ -13,7 +13,7 @@ const createServer = () => {
 
     const corsOptions = {
       //origin: "http://localhost:5173",
-     origin: "https://pic-cloud-psi.vercel.app",
+     origin: "https://stock-images-five.vercel.app",
       credentials: true,
       methods: "GET,PUT,PATCH,POST,DELETE",
       allowedHeaders: "Content-Type,Authorization",
