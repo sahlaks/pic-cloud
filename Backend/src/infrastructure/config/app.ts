@@ -12,8 +12,8 @@ const createServer = () => {
     const app: express.Application = express();
 
     const corsOptions = {
-      origin: "http://localhost:5173",
-     // origin: "https://pic-cloud-psi.vercel.app",
+      //origin: "http://localhost:5173",
+     origin: "https://pic-cloud-psi.vercel.app",
       credentials: true,
       methods: "GET,PUT,PATCH,POST,DELETE",
       allowedHeaders: "Content-Type,Authorization",
